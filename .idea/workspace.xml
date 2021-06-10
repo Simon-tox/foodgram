@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76dc4fc4-6396-4c3d-868f-bfa20e7e2b07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/.idea/foodgram-project-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/.idea/foodgram-project-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/foodgram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/foodgram/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/ingredients.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/ingredients.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/recipes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/recipes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/templatetags/check_attr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/templatetags/fetch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/templatetags/get_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/recipes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/recipes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/authorRecipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/badge/_style/badge_style_blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/badge/_style/badge_style_green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/badge/_style/badge_style_orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/badge/_style/badge_style_purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/badge/badge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/body/body.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/__icon/button__icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/_style/button_style_blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/_style/button_style_light-blue-outline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/_style/button_style_light-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/_style/button_style_none.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/size/button_size_auto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/button/size/button_size_subscribe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-list/_column/card-list_column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-list/card-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__body/card-user__body.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__footer/card-user__footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__header/card-user__header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__item/card-user__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__items/card-user__items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__link/card-user__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/__title/card-user__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card-user/card-user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__body/card__body.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__footer/card__foter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__image/card__image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__item/card__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__items/_column/card__items_column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__items/card__items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__text/card__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/__title/card__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/card/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/container/container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/__brand/footer__brand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/__container/footer__container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/__item/footer__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/__items/footer__items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/__link/footer__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/footer/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form-container/form-container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__dropdown-items/form__dropdown-items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__dropdown/form__dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__error/form__error.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-group-ingredientes/form__field-group-ingredientes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-group/_file/form__field-group_file.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-group/_time/form__field-group_time.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-group/form__field-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-item-delete/form__field-item-delete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__field-item-ingredient/form__field-item-ingredient.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__file-button/form__file-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__file/form__file.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__footer/form__footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__forgot-link/form__forgot-link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__group/form__group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__info-text/form__info-text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__ingredient-link/form__ingerident-link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__ingredientes/form__field-group__ingredientes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__input-info/form__input-info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__input/form__input.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__item-list/form__item-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__label/form__label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/__textarea/form__textarea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/form/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/header/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-check/icon-check.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-favorite/_active/icon-favorite_active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-favorite/big/icon-favorite_big.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-favorite/icon-favorite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-left/icon-left.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-plus/icon-plus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-right/icon-right.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-time/icon-time.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/icon-user/icon-user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/link/link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/main/__header/main__header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/main/__title/main__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/main/center-block.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/main/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__badge/nav__badge.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__container/nav__container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__item/_active/nav__item_active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__item/_disabled/nav__item_disabled.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__item/nav__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__items/nav__items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/__link/nav__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/nav/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/pagination/__container/pagination__container.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/pagination/__item/_active/pagination__item_active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/pagination/__item/pagination__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/pagination/__link/pagination__link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/pagination/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/__image/_big/recipe__image_big.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/__image/recipe__image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/__text/recipe__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/__title/recipe__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/_reverse/recipe_reverse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/recipe/recipe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/shopping-list/__button/shopping-list__button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/shopping-list/__item/shopping-list__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/shopping-list/shopping-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__favorite-tooltip/single-card__favorite-tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__favorite/single-card__favorite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__header-info/single-card__header-info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__image/single-card__image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__info/single-card__info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__item/single-card__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__items/_column/single-card__items_column.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__items/single-card__items.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__section-item/single-card__section-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__section-text/single-card__section-text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__section-title/single-card__section-title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__section/single-card__section.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__text/single-card__text.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/__title/single-card__title.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/single-card/single-card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__checkbox/_active/tags__checkbox_active.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__checkbox/_style/tags__checkbox_style_green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__checkbox/_style/tags__checkbox_style_orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__checkbox/_style/tags__checkbox_style_purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__checkbox/tags__checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__item/tags__item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/__label/tags__label.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/blocks/tags/tags.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/favorite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/fileName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/formRecipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/icons8-delete-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/starActive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/testCardImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/timeIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/user-check.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/userIcon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/images/yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/indexAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/indexNotAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/api/Api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/AuthorRecipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/CardList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/Favorites.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/MainCards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/MyFollow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/Purchases.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/ShopList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/SingleCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/Subscribe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/components/Throttle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/dom/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/js/utils/debouncing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/myFollow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/pages/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/pages/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/pages/myFollow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/pages/shopList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/pages/single.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/shopList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/singlePage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/singlePageNotAuth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/staticfiles/vendor/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/edit_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/author_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/follow_but.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/paginator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/recipe_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/shoplist_but.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/includes/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/misc/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/misc/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/misc/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/misc/spec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/recipe_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/shop_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/templates/single_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../foodgram-project-master/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodgram-project-master/users/templates/registration/signup.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="foodgram-project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../foodgram-project-master" />
+  </component>
+  <component name="ProjectId" id="1tc8bRcIzYBkxdLAR8F0I2YpSLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/foodgram" />
+      <recent name="$PROJECT_DIR$/foodgram/foodgram" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="foodgram-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$$PROJECT_DIR$/../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$$PROJECT_DIR$/../../../tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76dc4fc4-6396-4c3d-868f-bfa20e7e2b07" name="Default Changelist" comment="" />
+      <created>1623057134601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623057134601</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

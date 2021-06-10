@@ -1,0 +1,31 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | Foodgram</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    {% block stylesheet %}
+    {% endblock %}
+</head>
+<body class="body">
+
+{% block nav %}
+    {% include 'nav.html' with tab=tab %}
+{% endblock %}
+
+<main class="main container">
+    {% block content %}
+    {% endblock %}
+</main>
+
+{% include 'footer.html' %}
+
+{% block scripts %}
+{% endblock %}
+
+</body>
+</html>

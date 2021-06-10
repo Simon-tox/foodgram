@@ -1,0 +1,36 @@
+{% load thumbnail %}
+{% load get_tags %}
+{% load check_attr %}
+
+<div class="card" data-id="{{ item.id }}">
+    <a href="{% url 'recipe' item.author item.slug %}" class="link" target="_blank">
+        {% thumbnail item.image "361x240" crop="center" upscale=True as im %}
+            <img src="{{ im.url }}" alt="какой-то текст" class="single-card__image">
+        {% endthumbnail %}
+    </a>
+    <div class="card__body">
+        <a class="card__title link" href="{% url 'recipe' item.author item.slug %}" target="_blank">{{ item.name }}</a>
+        <ul class="card__items">
+            {{ item.tags|get_tags:'card__item'|safe }}
+        </ul>
+        <div class="card__items card__items_column">
+            <p class="card__text"><span class="icon-time"></span> {{ item.cooking_time }} мин.</p>
+            <p class="card__text"><span class="icon-user"></span>
+                <a href="{% url 'profile' item.author %}"style="text-decoration: none; color: black">
+                    {{ item.author.get_full_name }}
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="card__footer">
+        {% include 'shoplist_but.html' with light=True recipe=item %}
+
+        {% if user.is_authenticated %}
+            {% if item|check_fav:user %}
+                <button class="button button_style_none" name="favorites"><span class="icon-favorite icon-favorite_active"></span></button>
+            {% else %}
+                <button class="button button_style_none" name="favorites" data-out><span class="icon-favorite"></span></button>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
