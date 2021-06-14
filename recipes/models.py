@@ -83,7 +83,6 @@ class RecipeIngredient(models.Model):
         )]
 
     def __str__(self):
-        return (
-            f'{self.recipe.name} - {self.ingredient.title} - ',
-            f'{self.ingredient.dimension}'
-        )
+        return f'{self.recipe.name} - {self.ingredient.title}' \
+               f' - {self.ingredient.dimension}'
+
