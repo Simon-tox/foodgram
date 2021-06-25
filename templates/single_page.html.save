@@ -24,7 +24,8 @@
         {% csrf_token %}
         <div class="single-card" data-id="{{ recipe.id }}" data-author="{{ recipe.author.id }}">
             {% thumbnail recipe.image "480x480" crop="center" upscale=True as im %}
-                <img src={% if recipe.image %}"{{ im.url }}"{% else %}#{% endif %} alt="какой-то текст" class="single-card__image">
+            {% if recipe.image %}
+            <img src="{{ im.url }}" alt="какой-то текст" class="single-card__image">
             {% endthumbnail %}
             <div class="single-card__info">
                 <div class="single-card__header-info">

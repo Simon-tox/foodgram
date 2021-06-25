@@ -28,12 +28,13 @@ class Ingredient(models.Model):
 
 class Recipe(models.Model):
     name = models.CharField(max_length=75,
-                            verbose_name='Название')
+                            verbose_name='Название',
+                            unique=True)
     description = models.TextField(max_length=200,
                                    blank=True,
                                    null=True,
                                    verbose_name='Описание')
-    slug = models.SlugField(blank=True, null=True)
+    slug = models.SlugField(unique=True, blank=True, null=True)
     tags = MultiSelectField(choices=TAGS, blank=True, null=True)
     author = models.ForeignKey(get_user_model(),
                                on_delete=models.CASCADE,

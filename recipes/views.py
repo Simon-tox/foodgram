@@ -121,9 +121,39 @@ class CreateRecipeView(LoginRequiredMixin, View):
         return render(request, 'recipe_form.html', context={'form': form})
 
     def post(self, request):
-        return RecipeForm.form_safe(self, request)
+        form = RecipeForm(request.POST, files=request.FILES)
+        if form.is_valid():
+            ing_names = request.POST.getlist('nameIngredient')
+            ing_values = request.POST.getlist('valueIngredient')
+            ing_units = request.POST.getlist('unitsIngredient')
 
+            recipe = form.save(commit=False)
+            recipe.author = request.user
+            recipe.slug = slugify(recipe.name)
 
+            if len(ing_names) == len(ing_units) == len(ing_values) != 0:
+                recipe.save()
+                counter = len(ing_names)
+                for i in range(counter):
+                    ingredient = get_object_or_404(
+                        Ingredient,
+                        title=ing_names[i],
+                        dimension=ing_units[i]
+                    )
+                    RecipeIngredient.objects.get_or_create(
+                        recipe=recipe,
+                        ingredient=ingredient,
+                        amount=ing_values[i])
+            else:
+                return render(request, 'recipe_form.html',
+                              context={
+                                  'form': form,
+                                  'ing_error': 'Добавьте ингредиентов'
+                              })
+        else:
+            return render(request, 'recipe_form.html', context={'form': form})
+
+        return redirect('recipe', username=recipe.author, slug=recipe.slug)
 class EditRecipeView(LoginRequiredMixin, View):
     login_url = reverse_lazy('login')
 
@@ -143,7 +173,37 @@ class EditRecipeView(LoginRequiredMixin, View):
         recipe = get_object_or_404(Recipe, slug=slug)
         if recipe.author != request.user:
             return redirect('recipe', username=recipe.author, slug=recipe.slug)
-        return RecipeForm.form_safe(self, request)
+
+        form = RecipeForm(request.POST, files=request.FILES, instance=recipe)
+        if form.is_valid():
+            ing_names = request.POST.getlist('nameIngredient')
+            ing_values = request.POST.getlist('valueIngredient')
+            ing_units = request.POST.getlist('unitsIngredient')
+
+            if len(ing_names) == len(ing_units) == len(ing_values) != 0:
+                form.save()
+                RecipeIngredient.objects.filter(recipe=recipe).delete()
+                counter = len(ing_names)
+                for i in range(counter):
+                    ingredient = get_object_or_404(
+                        Ingredient,
+                        title=ing_names[i],
+                        dimension=ing_units[i]
+                    )
+                    RecipeIngredient.objects.get_or_create(
+                        recipe=recipe,
+                        ingredient=ingredient,
+                        amount=ing_values[i])
+            else:
+                return render(request, 'recipe_form.html',
+                              context={
+                                  'form': form,
+                                  'ing_error': 'Добавьте ингредиентов'
+                              })
+        else:
+            return render(request, 'recipe_form.html',
+                          context={'form': form, 'recipe': recipe})
+        return redirect('recipe', username=recipe.author, slug=recipe.slug)
 
 
 @login_required

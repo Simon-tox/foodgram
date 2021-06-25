@@ -127,7 +127,7 @@
                 <div class="form__field-group" style="display: inline-block;">
                     <label for="id_file" class="form__file-button">Выбрать файл</label>
                     <input type="file" name="image" id="id_file" class="form__file">
-                    {% if recipe %}
+                    {% if recipe.image %}
                     <a id="filename" style="float:right; margin-top:15px" class="form__label">
                         <span> {{ recipe.get_image_name }}</span> <span class="form__field-item-delete"></span>
                     </a>
