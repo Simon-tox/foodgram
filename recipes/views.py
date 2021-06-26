@@ -233,12 +233,11 @@ def edit_tag(request, tag):
     previous_url = request.META.get('HTTP_REFERER')
     tags = request.session.get('tag_list')
     if tag in tags:
-        tags.pop(tag['index'])
+        tags.remove(tag)
     else:
         tags.append(tag)
     request.session['tag_list'] = tags
     return redirect(previous_url)
-
 
 def download_purchases(request):
     filename = 'purchase_list.txt'
