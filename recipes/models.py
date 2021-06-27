@@ -73,7 +73,9 @@ class RecipeIngredient(models.Model):
                                verbose_name='Рецепт')
     ingredient = models.ForeignKey(Ingredient, on_delete=models.CASCADE,
                                    verbose_name='Ингредиент')
-    amount = models.PositiveIntegerField()
+    amount = models.PositiveIntegerField(validators=[
+        MinValueValidator(1)
+    ])
 
     class Meta:
         verbose_name = 'Ингредиент к рецептам'

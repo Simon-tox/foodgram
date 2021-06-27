@@ -132,18 +132,27 @@ class CreateRecipeView(LoginRequiredMixin, View):
             recipe.slug = slugify(recipe.name)
 
             if len(ing_names) == len(ing_units) == len(ing_values) != 0:
-                recipe.save()
-                counter = len(ing_names)
-                for i in range(counter):
-                    ingredient = get_object_or_404(
-                        Ingredient,
-                        title=ing_names[i],
-                        dimension=ing_units[i]
-                    )
-                    RecipeIngredient.objects.get_or_create(
-                        recipe=recipe,
-                        ingredient=ingredient,
-                        amount=ing_values[i])
+                for values in ing_values:
+                    if int(values) >= 0:
+                        recipe.save()
+                        counter = len(ing_names)
+                        for i in range(counter):
+                            ingredient = get_object_or_404(
+                                Ingredient,
+                                title=ing_names[i],
+                                dimension=ing_units[i]
+                            )
+                            RecipeIngredient.objects.get_or_create(
+                                recipe=recipe,
+                                ingredient=ingredient,
+                                amount=ing_values[i])
+                    else:
+                        return render(request, 'recipe_form.html',
+                              context={
+                                  'form': form,
+                                  'ing_error': 'Значение должно быть больше или равно 0.'
+                              })
+
             else:
                 return render(request, 'recipe_form.html',
                               context={
@@ -181,19 +190,28 @@ class EditRecipeView(LoginRequiredMixin, View):
             ing_units = request.POST.getlist('unitsIngredient')
 
             if len(ing_names) == len(ing_units) == len(ing_values) != 0:
-                form.save()
-                RecipeIngredient.objects.filter(recipe=recipe).delete()
-                counter = len(ing_names)
-                for i in range(counter):
-                    ingredient = get_object_or_404(
-                        Ingredient,
-                        title=ing_names[i],
-                        dimension=ing_units[i]
-                    )
-                    RecipeIngredient.objects.get_or_create(
-                        recipe=recipe,
-                        ingredient=ingredient,
-                        amount=ing_values[i])
+                for values in ing_values:
+                    if int(values) >= 0:
+                        form.save()
+                        RecipeIngredient.objects.filter(recipe=recipe).delete()
+                        counter = len(ing_names)
+                        for i in range(counter):
+                            ingredient = get_object_or_404(
+                                Ingredient,
+                                title=ing_names[i],
+                                dimension=ing_units[i]
+                            )
+                            RecipeIngredient.objects.get_or_create(
+                                recipe=recipe,
+                                ingredient=ingredient,
+                                amount=ing_values[i])
+                    else:
+                        return render(request, 'recipe_form.html',
+                                      context={
+                                          'form': form,
+                                          'ing_error': 'Значение должно быть больше или равно 0.'
+                                      })
+
             else:
                 return render(request, 'recipe_form.html',
                               context={

@@ -23,8 +23,9 @@
         </div>
     </div>
     <div class="card__footer">
-        {% include 'shoplist_but.html' with light=True recipe=item %}
-
+        {% if user.is_authenticated %}
+            {% include 'shoplist_but.html' with light=True recipe=item %}
+        {% endif %}
         {% if user.is_authenticated %}
             {% if item|check_fav:user %}
                 <button class="button button_style_none" name="favorites"><span class="icon-favorite icon-favorite_active"></span></button>

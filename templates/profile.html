@@ -27,13 +27,14 @@
         {% include 'tags.html' %}
     {% endif %}
 </div>
-
-{% if profile and user != page.0.author %}
-<div class="author-subscribe" data-author="{{page.0.author.pk}}">
-    <p style="padding: 0 0 2em 0;">
-        {% include 'follow_but.html' with key=page.0.author.pk %}
-    </p>
-</div>
+{% if user.is_authenticated %}
+    {% if profile and user != page.0.author %}
+    <div class="author-subscribe" data-author="{{page.0.author.pk}}">
+        <p style="padding: 0 0 2em 0;">
+            {% include 'follow_but.html' with key=page.0.author.pk %}
+        </p>
+    </div>
+    {% endif %}
 {% endif %}
 
 <div class="card-list">

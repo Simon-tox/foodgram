@@ -28,10 +28,6 @@
                 <li class="nav__item"><a href="{% url 'logout' %}" class="nav__link link">Выход</a></li>
             </ul>
             {% else %}
-                <li class="nav__item {% if tab == 'purchases' %}nav__item_active{% endif %}">
-                    <a href="{% url 'purchases' %}" class="nav__link link">Список покупок</a>
-                    <span class="badge badge_style_blue nav__badge" id="counter">{{ request.session.purchases|length }}</span>
-                </li>
             </ul>
             <ul class="nav__items list">
                 <li class="nav__item"><a href="{% url 'login' %}" class="nav__link link">Войти</a></li>
